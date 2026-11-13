@@ -103,12 +103,11 @@ npm run build
 
 ### Desktop View
 
-![Desktop Dashboard](screenshots/desktop.png)
+![Desktop Dashboard](./screenshots/desktop.png)
 
 ### Mobile View
 
-![Mobile Dashboard](screenshots/mobile.png)
-
+![Mobile Dashboard](./screenshots/mobile.png)
 ## 💾 Data Storage
 
 Account records are stored in the browser's LocalStorage so that changes remain available after refreshing the page in the same browser.
