@@ -1,16 +1,128 @@
-# React + Vite
+# Actify Business – Account Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Account Management Dashboard built using React.js. This project provides an interface to manage business accounts with features such as adding, editing, deleting, searching, sorting, pagination, and Excel export.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Account Management:** Add, edit, and delete account records.
+- **Global Search:** Search accounts across all table columns.
+- **Column Sorting:** Sort account records in ascending and descending order.
+- **Pagination:** Display 10 records per page.
+- **Excel Export:** Export all account records or only filtered search results.
+- **Form Validation:** Validate account details using React Hook Form.
+- **State Management:** Manage account data using Redux Toolkit.
+- **Data Persistence:** Save account changes in browser LocalStorage.
+- **Responsive Design:** Optimized for desktop, tablet, and mobile screens.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript (ES6+)
+- Redux Toolkit
+- React Redux
+- React Hook Form
+- Bootstrap
+- React Icons
+- XLSX
+- HTML5
+- CSS3
+- Vite
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+actify-dashboard/
+│
+├── public/
+├── src/
+│   ├── app/
+│   │   └── store.js
+│   │
+│   ├── components/
+│   │   ├── AccountForm.jsx
+│   │   └── AccountTable.jsx
+│   │
+│   ├── features/
+│   │   └── accounts/
+│   │       ├── accountData.js
+│   │       └── accountSlice.js
+│   │
+│   ├── pages/
+│   │   └── Dashboard.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+└── README.md
+```
+
+## ⚙️ Installation and Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Neha-606/actify-dashboard.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd actify-dashboard
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+### 5. Build for production
+
+```bash
+npm run build
+```
+
+## 📸 Screenshots
+
+### Desktop View
+
+Add your desktop screenshot to the `screenshots` folder and use:
+
+```markdown
+![Desktop Dashboard](screenshots/desktop.png)
+```
+
+### Mobile View
+
+Add your mobile screenshot to the `screenshots` folder and use:
+
+```markdown
+![Mobile Dashboard](screenshots/mobile.png)
+```
+
+## 💾 Data Storage
+
+Account records are stored in the browser's LocalStorage so that changes remain available after refreshing the page in the same browser.
+
+This project uses dummy account data and does not require a backend API.
+
+## 👩‍💻 Developer
+
+**Neha Ashok Shingade**
+
+- GitHub: [Neha-606](https://github.com/Neha-606)
+- Project Repository: [Actify Dashboard](https://github.com/Neha-606/actify-dashboard)
+
+---
+
+*Developed as a React.js Account Management Dashboard assignment.*
