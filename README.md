@@ -1,6 +1,6 @@
 # Actify Business – Account Management Dashboard
 
-A responsive Account Management Dashboard built using React.js. This project provides an interface to manage business accounts with features such as adding, editing, deleting, searching, sorting, pagination, and Excel export.
+A responsive Account Management Dashboard built using React.js. This application provides an interface to manage business accounts with features such as adding, editing, deleting, searching, sorting, pagination, and Excel export.
 
 ## 🚀 Features
 
@@ -33,6 +33,10 @@ A responsive Account Management Dashboard built using React.js. This project pro
 ```text
 actify-dashboard/
 │
+├── screenshots/
+│   ├── desktop.png
+│   └── mobile.png
+│
 ├── public/
 ├── src/
 │   ├── app/
@@ -55,8 +59,11 @@ actify-dashboard/
 │   ├── index.css
 │   └── main.jsx
 │
+├── .gitignore
 ├── index.html
 ├── package.json
+├── package-lock.json
+├── vite.config.js
 └── README.md
 ```
 
@@ -96,19 +103,11 @@ npm run build
 
 ### Desktop View
 
-Add your desktop screenshot to the `screenshots` folder and use:
-
-```markdown
 ![Desktop Dashboard](screenshots/desktop.png)
-```
 
 ### Mobile View
 
-Add your mobile screenshot to the `screenshots` folder and use:
-
-```markdown
 ![Mobile Dashboard](screenshots/mobile.png)
-```
 
 ## 💾 Data Storage
 
@@ -125,4 +124,4 @@ This project uses dummy account data and does not require a backend API.
 
 ---
 
-*Developed as a React.js Account Management Dashboard assignment.*
+Developed as a React.js Account Management Dashboard assignment.
